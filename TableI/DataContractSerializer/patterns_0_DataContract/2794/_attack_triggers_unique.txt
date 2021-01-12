@@ -1,0 +1,6 @@
+System.Configuration.ConfigurationElementCollection::get_Count()
+System.Configuration.ConfigurationElementCollection::GetElementKey(System.Configuration.ConfigurationElement)
+System.Configuration.ConfigurationElement::AssociateContext(System.Configuration.BaseConfigurationRecord)
+System.Configuration.ConfigurationElement::SetReadOnly()
+System.Configuration.ConfigurationElement::Init()
+System.CtorDelegate::Invoke(System.Object)

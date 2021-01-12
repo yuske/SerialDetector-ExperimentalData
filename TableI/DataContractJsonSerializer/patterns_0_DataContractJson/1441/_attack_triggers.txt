@@ -1,0 +1,5 @@
+0: System.Threading.Monitor::ReliableEnter(System.Object,System.Boolean&)
+1: System.Net.IWebProxy::GetProxy(System.Uri)
+2: System.Net.IWebProxy::IsBypassed(System.Uri)
+3: System.Net.IWebProxy::set_Credentials(System.Net.ICredentials)
+4: System.CtorDelegate::Invoke(System.Object)

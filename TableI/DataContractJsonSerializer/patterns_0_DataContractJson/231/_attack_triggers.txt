@@ -1,0 +1,6 @@
+0: System.Object::Equals(System.Object)
+1: System.Object::GetType()
+2: System.Object::GetType()
+3: System.Security.IPermission::Intersect(System.Security.IPermission)
+4: System.Security.IPermission::Union(System.Security.IPermission)
+5: System.CtorDelegate::Invoke(System.Object)

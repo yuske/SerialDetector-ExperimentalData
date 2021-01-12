@@ -1,0 +1,2 @@
+0: System.Configuration.Internal.IConfigurationManagerInternal::get_SetConfigurationSystemInProgress()
+1: System.CtorDelegate::Invoke(System.Object)

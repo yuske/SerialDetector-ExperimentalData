@@ -1,0 +1,7 @@
+System.Xaml.XamlType::LookupUnderlyingType()
+System.Xaml.XamlType::LookupIsUnknown()
+System.Xaml.XamlType::LookupCollectionKind()
+System.Collections.Generic.EqualityComparer`1::Equals(!0,!0)
+System.Collections.Generic.IEqualityComparer`1::Equals(!0,!0)
+System.Collections.Generic.IEqualityComparer`1::GetHashCode(!0)
+System.CtorDelegate::Invoke(System.Object)

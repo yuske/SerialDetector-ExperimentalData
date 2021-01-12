@@ -1,0 +1,5 @@
+System.Object::GetType()
+System.Threading.Monitor::ReliableEnter(System.Object,System.Boolean&)
+System.Security.Policy.IMembershipCondition::Copy()
+System.Security.ISecurityPolicyEncodable::FromXml(System.Security.SecurityElement,System.Security.Policy.PolicyLevel)
+System.CtorDelegate::Invoke(System.Object)

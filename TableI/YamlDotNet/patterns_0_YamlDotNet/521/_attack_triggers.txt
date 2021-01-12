@@ -1,0 +1,3 @@
+0: System.Resources.ResourceSet::Dispose(System.Boolean)
+1: System.Collections.Generic.EqualityComparer`1::Equals(!0,!0)
+2: System.CtorDelegate::Invoke(System.Object)

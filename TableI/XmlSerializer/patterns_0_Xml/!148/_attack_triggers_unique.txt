@@ -1,0 +1,3 @@
+System.RuntimeMethodHandle::InvokeMethod(System.Object,System.Object[],System.Signature,System.Boolean)
+System.Object::GetType()
+System.CtorDelegate::Invoke(System.Object)

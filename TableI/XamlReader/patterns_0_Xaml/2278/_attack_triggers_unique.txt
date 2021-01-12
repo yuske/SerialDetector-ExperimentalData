@@ -1,0 +1,4 @@
+System.Collections.Generic.IEqualityComparer`1::Equals(!0,!0)
+System.Collections.Generic.IEqualityComparer`1::GetHashCode(!0)
+System.Xaml.XamlMember::LookupIsUnknown()
+System.CtorDelegate::Invoke(System.Object)

@@ -1,0 +1,2 @@
+0: System.Xaml.XamlType::LookupUnderlyingType()
+1: System.CtorDelegate::Invoke(System.Object)

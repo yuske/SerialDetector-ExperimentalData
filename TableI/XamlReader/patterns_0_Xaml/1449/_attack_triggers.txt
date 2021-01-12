@@ -1,0 +1,2 @@
+0: System.Collections.Generic.EqualityComparer`1::Equals(!0,!0)
+1: System.CtorDelegate::Invoke(System.Object)

@@ -1,0 +1,5 @@
+System.Xaml.XamlType::LookupCustomAttributeProvider()
+System.Xaml.XamlType::LookupTypeConverter()
+System.Xaml.XamlType::LookupUnderlyingType()
+System.Xaml.XamlType::LookupIsUnknown()
+System.CtorDelegate::Invoke(System.Object)

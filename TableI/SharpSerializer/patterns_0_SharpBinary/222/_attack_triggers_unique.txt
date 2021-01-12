@@ -1,0 +1,2 @@
+System.Threading.WinRTSynchronizationContextFactoryBase::Create(System.Object)
+System.CtorDelegate::Invoke(System.Object)

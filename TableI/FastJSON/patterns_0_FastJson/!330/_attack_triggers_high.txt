@@ -1,0 +1,2 @@
+fastJSON.Reflection/GenericSetter::Invoke(System.Object,System.Object)
+fastJSON.Reflection/GenericGetter::Invoke(System.Object)

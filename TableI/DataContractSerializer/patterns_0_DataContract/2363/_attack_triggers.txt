@@ -1,0 +1,8 @@
+0: System.Object::GetType()
+1: System.Diagnostics.TypedElement::get_TypeName()
+2: System.Diagnostics.TypedElement::get_TypeName()
+3: System.Diagnostics.TypedElement::get_TypeName()
+4: System.Configuration.ConfigurationElement::AssociateContext(System.Configuration.BaseConfigurationRecord)
+5: System.Configuration.ConfigurationElement::SetReadOnly()
+6: System.Configuration.ConfigurationElement::Init()
+7: System.CtorDelegate::Invoke(System.Object)

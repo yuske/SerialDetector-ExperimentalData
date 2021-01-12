@@ -1,0 +1,6 @@
+System.Object::GetType()
+System.Security.ISecurityEncodable::ToXml()
+System.Security.CodeAccessSecurityEngine::Check(System.Object,System.Threading.StackCrawlMark&,System.Boolean)
+System.Security.CodeAccessPermission::IsSubsetOf(System.Security.IPermission)
+System.Security.IPermission::Demand()
+System.CtorDelegate::Invoke(System.Object)

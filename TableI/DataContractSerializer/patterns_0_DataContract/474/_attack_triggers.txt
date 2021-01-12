@@ -1,0 +1,2 @@
+0: System.Net.IWebRequestCreate::Create(System.Uri)
+1: System.CtorDelegate::Invoke(System.Object)

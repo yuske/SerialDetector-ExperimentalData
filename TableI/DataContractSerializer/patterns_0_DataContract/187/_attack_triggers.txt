@@ -1,0 +1,8 @@
+0: System.Resources.ResourceSet::GetString(System.String,System.Boolean)
+1: System.Resources.ResourceSet::GetString(System.String,System.Boolean)
+2: System.Resources.ResourceSet::GetString(System.String,System.Boolean)
+3: System.Resources.ResourceSet::Dispose(System.Boolean)
+4: System.Collections.Generic.EqualityComparer`1::Equals(!0,!0)
+5: System.Resources.ResourceSet::Dispose(System.Boolean)
+6: System.Collections.Generic.EqualityComparer`1::Equals(!0,!0)
+7: System.CtorDelegate::Invoke(System.Object)

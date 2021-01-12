@@ -1,0 +1,2 @@
+0: System.Runtime.InteropServices.Marshal::PtrToStructureHelper(System.IntPtr,System.Object,System.Boolean)
+1: System.CtorDelegate::Invoke(System.Object)

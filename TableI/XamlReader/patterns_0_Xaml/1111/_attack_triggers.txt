@@ -1,0 +1,6 @@
+0: System.Object::GetType()
+1: System.Security.Policy.CodeGroup::ParseXml(System.Security.SecurityElement,System.Security.Policy.PolicyLevel)
+2: System.Threading.Monitor::ReliableEnter(System.Object,System.Boolean&)
+3: System.Security.Policy.CodeGroup::ParseXml(System.Security.SecurityElement,System.Security.Policy.PolicyLevel)
+4: System.Threading.Monitor::ReliableEnter(System.Object,System.Boolean&)
+5: System.CtorDelegate::Invoke(System.Object)

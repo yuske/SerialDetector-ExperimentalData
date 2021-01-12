@@ -1,0 +1,5 @@
+0: System.Configuration.ConfigurationElementCollection::GetEnumerator()
+1: System.Configuration.ConfigurationElement::AssociateContext(System.Configuration.BaseConfigurationRecord)
+2: System.Configuration.ConfigurationElement::SetReadOnly()
+3: System.Configuration.ConfigurationElement::Init()
+4: System.CtorDelegate::Invoke(System.Object)

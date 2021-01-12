@@ -1,0 +1,8 @@
+System.Object::GetType()
+System.Security.ISecurityEncodable::FromXml(System.Security.SecurityElement)
+System.Security.IPermission::Intersect(System.Security.IPermission)
+System.Security.IPermission::Union(System.Security.IPermission)
+System.Security.IPermission::Copy()
+System.Security.CodeAccessPermission::IsSubsetOf(System.Security.IPermission)
+System.Security.IPermission::IsSubsetOf(System.Security.IPermission)
+System.CtorDelegate::Invoke(System.Object)

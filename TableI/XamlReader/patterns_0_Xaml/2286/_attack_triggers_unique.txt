@@ -1,0 +1,4 @@
+System.Xaml.XamlType::LookupUnderlyingType()
+System.Xaml.XamlType::LookupIsUnknown()
+System.Xaml.XamlType::LookupMember(System.String,System.Boolean)
+System.CtorDelegate::Invoke(System.Object)

@@ -1,0 +1,3 @@
+0: System.Action`1::Invoke(!0)
+1: System.Windows.Markup.INameScope::RegisterName(System.String,System.Object)
+2: System.CtorDelegate::Invoke(System.Object)

@@ -1,0 +1,6 @@
+0: System.Object::GetType()
+1: System.Security.ISecurityEncodable::ToXml()
+2: System.Security.CodeAccessSecurityEngine::Check(System.Object,System.Threading.StackCrawlMark&,System.Boolean)
+3: System.Security.CodeAccessPermission::IsSubsetOf(System.Security.IPermission)
+4: System.Security.IPermission::Demand()
+5: System.CtorDelegate::Invoke(System.Object)

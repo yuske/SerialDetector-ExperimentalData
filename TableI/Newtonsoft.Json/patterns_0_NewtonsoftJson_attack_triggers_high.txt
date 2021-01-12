@@ -1,0 +1,7 @@
+Newtonsoft.Json.Serialization.SerializationCallback::Invoke(System.Object,System.Runtime.Serialization.StreamingContext)
+System.Collections.Specialized.NotifyCollectionChangedEventHandler::Invoke(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)
+System.ComponentModel.ListChangedEventHandler::Invoke(System.Object,System.ComponentModel.ListChangedEventArgs)
+Newtonsoft.Json.Serialization.ExtensionDataSetter::Invoke(System.Object,System.String,System.Object)
+System.Action`2::Invoke(!0,!1)
+System.Predicate`1::Invoke(!0)
+System.Func`4::Invoke(!0,!1,!2)

@@ -1,0 +1,8 @@
+System.Configuration.ConfigurationValidatorBase::Validate(System.Object)
+System.Object::GetType()
+System.RuntimeMethodHandle::InvokeMethod(System.Object,System.Object[],System.Signature,System.Boolean)
+System.Configuration.ConfigurationElement::get_Properties()
+System.Configuration.ConfigurationElement::AssociateContext(System.Configuration.BaseConfigurationRecord)
+System.Configuration.ConfigurationElement::SetReadOnly()
+System.Configuration.ConfigurationElement::Init()
+System.CtorDelegate::Invoke(System.Object)

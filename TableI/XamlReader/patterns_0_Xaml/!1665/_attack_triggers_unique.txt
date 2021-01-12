@@ -1,0 +1,2 @@
+System.Action`1::Invoke(!0)
+System.CtorDelegate::Invoke(System.Object)

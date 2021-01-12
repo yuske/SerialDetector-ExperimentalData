@@ -1,0 +1,2 @@
+0: System.Xaml.XamlMember::LookupIsUnknown()
+1: System.CtorDelegate::Invoke(System.Object)

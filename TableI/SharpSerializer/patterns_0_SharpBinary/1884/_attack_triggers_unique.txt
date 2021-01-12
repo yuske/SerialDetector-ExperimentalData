@@ -1,0 +1,7 @@
+System.ComponentModel.MemberDescriptor::get_Name()
+System.Array::InternalSetValue(System.Void*,System.Object)
+System.Object::GetType()
+System.Threading.Monitor::ReliableEnter(System.Object,System.Boolean&)
+System.Security.Policy.CodeGroup::Resolve(System.Security.Policy.Evidence)
+System.Security.Policy.CodeGroup::ParseXml(System.Security.SecurityElement,System.Security.Policy.PolicyLevel)
+System.CtorDelegate::Invoke(System.Object)

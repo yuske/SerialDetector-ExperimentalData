@@ -1,0 +1,2 @@
+0: System.Configuration.Provider.ProviderBase::Initialize(System.String,System.Collections.Specialized.NameValueCollection)
+1: System.CtorDelegate::Invoke(System.Object)

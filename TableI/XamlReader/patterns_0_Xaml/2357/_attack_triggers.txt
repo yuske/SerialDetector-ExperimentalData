@@ -1,0 +1,5 @@
+0: System.Object::ToString()
+1: System.ICustomFormatter::Format(System.String,System.Object,System.IFormatProvider)
+2: System.Object::ToString()
+3: System.ICustomFormatter::Format(System.String,System.Object,System.IFormatProvider)
+4: System.CtorDelegate::Invoke(System.Object)

@@ -1,0 +1,3 @@
+0: fastJSON.Reflection/GenericSetter::Invoke(System.Object,System.Object)
+1: System.Collections.Hashtable::KeyEquals(System.Object,System.Object)
+2: System.Collections.IDictionary::Add(System.Object,System.Object)

@@ -1,0 +1,4 @@
+System.Net.IWebProxyScript::Run(System.String,System.String)
+System.Net.IWebProxyScript::Close()
+System.Net.IWebProxyScript::Load(System.Uri,System.String,System.Type)
+System.CtorDelegate::Invoke(System.Object)

@@ -1,0 +1,6 @@
+System.Object::GetType()
+System.Diagnostics.TypedElement::get_TypeName()
+System.Configuration.ConfigurationElement::AssociateContext(System.Configuration.BaseConfigurationRecord)
+System.Configuration.ConfigurationElement::SetReadOnly()
+System.Configuration.ConfigurationElement::Init()
+System.CtorDelegate::Invoke(System.Object)

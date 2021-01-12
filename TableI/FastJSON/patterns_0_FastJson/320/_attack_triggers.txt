@@ -1,0 +1,3 @@
+0: System.Collections.ObjectModel.Collection`1::InsertItem(System.Int32,!0)
+1: System.Collections.ArrayList::set_Capacity(System.Int32)
+2: System.Collections.IList::Add(System.Object)

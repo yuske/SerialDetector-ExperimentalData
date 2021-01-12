@@ -1,0 +1,2 @@
+System.RuntimeMethodHandle::InvokeMethod(System.Object,System.Object[],System.Signature,System.Boolean)
+System.Web.UI.ExtractTemplateValuesMethod::.ctor(System.Object,System.IntPtr)

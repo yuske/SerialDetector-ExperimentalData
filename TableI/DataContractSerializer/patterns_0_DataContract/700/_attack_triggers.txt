@@ -1,0 +1,2 @@
+0: System.Configuration.Internal.IConfigurationManagerHelper::EnsureNetConfigLoaded()
+1: System.CtorDelegate::Invoke(System.Object)

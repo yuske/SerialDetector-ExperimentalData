@@ -1,0 +1,7 @@
+0: System.Action`1::Invoke(!0)
+1: System.Action`1::Invoke(!0)
+2: System.Action`1::Invoke(!0)
+3: System.Action`1::Invoke(!0)
+4: System.Action`1::Invoke(!0)
+5: System.Windows.Markup.INameScope::RegisterName(System.String,System.Object)
+6: System.CtorDelegate::Invoke(System.Object)

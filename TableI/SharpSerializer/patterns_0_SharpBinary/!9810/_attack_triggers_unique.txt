@@ -1,0 +1,4 @@
+System.RuntimeMethodHandle::InvokeMethod(System.Object,System.Object[],System.Signature,System.Boolean)
+System.RuntimeTypeHandle::IsInstanceOfType(System.RuntimeType,System.Object)
+System.Object::GetType()
+System.CtorDelegate::Invoke(System.Object)

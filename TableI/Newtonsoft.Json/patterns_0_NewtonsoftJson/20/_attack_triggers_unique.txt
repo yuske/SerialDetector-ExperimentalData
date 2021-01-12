@@ -1,0 +1,2 @@
+System.Collections.Hashtable::GetEnumerator()
+System.Collections.IDictionary::GetEnumerator()

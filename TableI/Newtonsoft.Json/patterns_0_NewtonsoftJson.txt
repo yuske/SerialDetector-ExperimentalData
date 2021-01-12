@@ -1,0 +1,386 @@
+Tainted Objects: 24
+Patterns: 17 (13 high priority)
+Unique Patterns: 13 (10 high priority)
+Attack Trigger Methods: 456
+
+Unique Pattern Groups:
+Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]): 7
+Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]): 11, 14, 36
+Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]): 12
+Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]): 22
+Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]): 16
+Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]): 17
+Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]): 55, 56
+Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]): 20
+Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]): 26
+Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]): 29, 31
+Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]): 35
+Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]): 42
+Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]): 58
+
+#2 Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]) (0 attack triggers) 
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateNewList(Newtonsoft.Json.JsonReader,Newtonsoft.Json.Serialization.JsonArrayContract,System.Boolean&)
+---
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateList(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object,System.String)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::ReadMetadataPropertiesToken(Newtonsoft.Json.Linq.JTokenReader,System.Type&,Newtonsoft.Json.Serialization.JsonContract&,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object,System.Object&,System.String&)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObject(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateValueInternal(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::Deserialize(Newtonsoft.Json.JsonReader,System.Type,System.Boolean)
+C:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+V:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonSerializer::Deserialize(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject(System.String,System.Type,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String)
+C:SerialDetector.Experiments.Deserializers::NewtonsoftJson()
+
+#4 Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]) (0 attack triggers) 
+C:Newtonsoft.Json.Serialization.JsonArrayContract::CreateWrapper(System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateNewList(Newtonsoft.Json.JsonReader,Newtonsoft.Json.Serialization.JsonArrayContract,System.Boolean&)
+---
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateList(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object,System.String)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::ReadMetadataPropertiesToken(Newtonsoft.Json.Linq.JTokenReader,System.Type&,Newtonsoft.Json.Serialization.JsonContract&,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object,System.Object&,System.String&)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObject(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateValueInternal(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::Deserialize(Newtonsoft.Json.JsonReader,System.Type,System.Boolean)
+C:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+V:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonSerializer::Deserialize(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject(System.String,System.Type,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String)
+C:SerialDetector.Experiments.Deserializers::NewtonsoftJson()
+
+#5 Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]) (0 attack triggers) 
+C:Newtonsoft.Json.Serialization.JsonArrayContract::CreateWrapper(System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateNewList(Newtonsoft.Json.JsonReader,Newtonsoft.Json.Serialization.JsonArrayContract,System.Boolean&)
+---
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateList(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object,System.String)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::ReadMetadataPropertiesToken(Newtonsoft.Json.Linq.JTokenReader,System.Type&,Newtonsoft.Json.Serialization.JsonContract&,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object,System.Object&,System.String&)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObject(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateValueInternal(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::Deserialize(Newtonsoft.Json.JsonReader,System.Type,System.Boolean)
+C:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+V:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonSerializer::Deserialize(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject(System.String,System.Type,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String)
+C:SerialDetector.Experiments.Deserializers::NewtonsoftJson()
+
+#7 Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]) (61 attack triggers) HIGH PRIORITY!
+C:Newtonsoft.Json.Serialization.JsonArrayContract::CreateWrapper(System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateNewList(Newtonsoft.Json.JsonReader,Newtonsoft.Json.Serialization.JsonArrayContract,System.Boolean&)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateList(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object,System.String)
+---
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::ReadMetadataPropertiesToken(Newtonsoft.Json.Linq.JTokenReader,System.Type&,Newtonsoft.Json.Serialization.JsonContract&,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object,System.Object&,System.String&)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObject(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateValueInternal(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::Deserialize(Newtonsoft.Json.JsonReader,System.Type,System.Boolean)
+C:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+V:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonSerializer::Deserialize(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject(System.String,System.Type,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String)
+C:SerialDetector.Experiments.Deserializers::NewtonsoftJson()
+
+#8 Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]) (0 attack triggers) 
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateList(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object,System.String)
+---
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::ReadMetadataPropertiesToken(Newtonsoft.Json.Linq.JTokenReader,System.Type&,Newtonsoft.Json.Serialization.JsonContract&,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object,System.Object&,System.String&)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObject(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateValueInternal(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::Deserialize(Newtonsoft.Json.JsonReader,System.Type,System.Boolean)
+C:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+V:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonSerializer::Deserialize(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject(System.String,System.Type,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String)
+C:SerialDetector.Experiments.Deserializers::NewtonsoftJson()
+
+#11 Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]) (22 attack triggers) HIGH PRIORITY!
+C:Newtonsoft.Json.Serialization.JsonArrayContract::CreateWrapper(System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateList(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object,System.String)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::ReadMetadataPropertiesToken(Newtonsoft.Json.Linq.JTokenReader,System.Type&,Newtonsoft.Json.Serialization.JsonContract&,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object,System.Object&,System.String&)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObject(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+---
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateValueInternal(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::Deserialize(Newtonsoft.Json.JsonReader,System.Type,System.Boolean)
+C:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+V:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonSerializer::Deserialize(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject(System.String,System.Type,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String)
+C:SerialDetector.Experiments.Deserializers::NewtonsoftJson()
+
+#12 Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]) (23 attack triggers) HIGH PRIORITY!
+C:Newtonsoft.Json.Serialization.JsonArrayContract::CreateWrapper(System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateList(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object,System.String)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::ReadMetadataProperties(Newtonsoft.Json.JsonReader,System.Type&,Newtonsoft.Json.Serialization.JsonContract&,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object,System.Object&,System.String&)
+---
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObject(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateValueInternal(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::Deserialize(Newtonsoft.Json.JsonReader,System.Type,System.Boolean)
+C:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+V:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonSerializer::Deserialize(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject(System.String,System.Type,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String)
+C:SerialDetector.Experiments.Deserializers::NewtonsoftJson()
+
+#14 Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]) (22 attack triggers) HIGH PRIORITY!
+C:Newtonsoft.Json.Serialization.JsonArrayContract::CreateWrapper(System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateList(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object,System.String)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::ReadMetadataProperties(Newtonsoft.Json.JsonReader,System.Type&,Newtonsoft.Json.Serialization.JsonContract&,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object,System.Object&,System.String&)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObject(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+---
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateValueInternal(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::Deserialize(Newtonsoft.Json.JsonReader,System.Type,System.Boolean)
+C:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+V:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonSerializer::Deserialize(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject(System.String,System.Type,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String)
+C:SerialDetector.Experiments.Deserializers::NewtonsoftJson()
+
+#22 Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]) (13 attack triggers) HIGH PRIORITY!
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObjectUsingCreatorWithParameters(Newtonsoft.Json.JsonReader,Newtonsoft.Json.Serialization.JsonObjectContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object>,System.String)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateNewObject(Newtonsoft.Json.JsonReader,Newtonsoft.Json.Serialization.JsonObjectContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonProperty,System.String,System.Boolean&)
+---
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObject(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateValueInternal(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::Deserialize(Newtonsoft.Json.JsonReader,System.Type,System.Boolean)
+C:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+V:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonSerializer::Deserialize(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject(System.String,System.Type,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String)
+C:SerialDetector.Experiments.Deserializers::NewtonsoftJson()
+
+#16 Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]) (15 attack triggers) HIGH PRIORITY!
+C:Newtonsoft.Json.Serialization.JsonArrayContract::CreateWrapper(System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObjectUsingCreatorWithParameters(Newtonsoft.Json.JsonReader,Newtonsoft.Json.Serialization.JsonObjectContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object>,System.String)
+---
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateNewObject(Newtonsoft.Json.JsonReader,Newtonsoft.Json.Serialization.JsonObjectContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonProperty,System.String,System.Boolean&)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObject(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateValueInternal(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::Deserialize(Newtonsoft.Json.JsonReader,System.Type,System.Boolean)
+C:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+V:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonSerializer::Deserialize(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject(System.String,System.Type,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String)
+C:SerialDetector.Experiments.Deserializers::NewtonsoftJson()
+
+#17 Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]) (1 attack triggers) 
+C:Newtonsoft.Json.Serialization.JsonArrayContract::CreateWrapper(System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObjectUsingCreatorWithParameters(Newtonsoft.Json.JsonReader,Newtonsoft.Json.Serialization.JsonObjectContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object>,System.String)
+---
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateNewObject(Newtonsoft.Json.JsonReader,Newtonsoft.Json.Serialization.JsonObjectContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonProperty,System.String,System.Boolean&)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObject(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateValueInternal(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::Deserialize(Newtonsoft.Json.JsonReader,System.Type,System.Boolean)
+C:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+V:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonSerializer::Deserialize(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject(System.String,System.Type,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String)
+C:SerialDetector.Experiments.Deserializers::NewtonsoftJson()
+
+#55 Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]) (13 attack triggers) 
+C:Newtonsoft.Json.Serialization.JsonDictionaryContract::CreateWrapper(System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObjectUsingCreatorWithParameters(Newtonsoft.Json.JsonReader,Newtonsoft.Json.Serialization.JsonObjectContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object>,System.String)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateNewObject(Newtonsoft.Json.JsonReader,Newtonsoft.Json.Serialization.JsonObjectContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonProperty,System.String,System.Boolean&)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObject(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateValueInternal(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::Deserialize(Newtonsoft.Json.JsonReader,System.Type,System.Boolean)
+C:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+V:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonSerializer::Deserialize(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject(System.String,System.Type,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String,Newtonsoft.Json.JsonSerializerSettings)
+---
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String)
+C:SerialDetector.Experiments.Deserializers::NewtonsoftJson()
+
+#20 Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]) (3 attack triggers) 
+C:Newtonsoft.Json.Serialization.JsonDictionaryContract::CreateWrapper(System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObjectUsingCreatorWithParameters(Newtonsoft.Json.JsonReader,Newtonsoft.Json.Serialization.JsonObjectContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object>,System.String)
+---
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateNewObject(Newtonsoft.Json.JsonReader,Newtonsoft.Json.Serialization.JsonObjectContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonProperty,System.String,System.Boolean&)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObject(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateValueInternal(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::Deserialize(Newtonsoft.Json.JsonReader,System.Type,System.Boolean)
+C:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+V:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonSerializer::Deserialize(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject(System.String,System.Type,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String)
+C:SerialDetector.Experiments.Deserializers::NewtonsoftJson()
+
+#23 Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]) (0 attack triggers) 
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateNewObject(Newtonsoft.Json.JsonReader,Newtonsoft.Json.Serialization.JsonObjectContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonProperty,System.String,System.Boolean&)
+---
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObject(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateValueInternal(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::Deserialize(Newtonsoft.Json.JsonReader,System.Type,System.Boolean)
+C:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+V:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonSerializer::Deserialize(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject(System.String,System.Type,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String)
+C:SerialDetector.Experiments.Deserializers::NewtonsoftJson()
+
+#26 Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]) (28 attack triggers) HIGH PRIORITY!
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObjectUsingCreatorWithParameters(Newtonsoft.Json.JsonReader,Newtonsoft.Json.Serialization.JsonObjectContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object>,System.String)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateNewObject(Newtonsoft.Json.JsonReader,Newtonsoft.Json.Serialization.JsonObjectContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonProperty,System.String,System.Boolean&)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObject(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+---
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateValueInternal(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::Deserialize(Newtonsoft.Json.JsonReader,System.Type,System.Boolean)
+C:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+V:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonSerializer::Deserialize(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject(System.String,System.Type,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String)
+C:SerialDetector.Experiments.Deserializers::NewtonsoftJson()
+
+#27 Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]) (0 attack triggers) 
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateNewDictionary(Newtonsoft.Json.JsonReader,Newtonsoft.Json.Serialization.JsonDictionaryContract,System.Boolean&)
+---
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObject(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateValueInternal(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::Deserialize(Newtonsoft.Json.JsonReader,System.Type,System.Boolean)
+C:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+V:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonSerializer::Deserialize(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject(System.String,System.Type,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String)
+C:SerialDetector.Experiments.Deserializers::NewtonsoftJson()
+
+#29 Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]) (11 attack triggers) HIGH PRIORITY!
+C:Newtonsoft.Json.Serialization.JsonDictionaryContract::CreateWrapper(System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateNewDictionary(Newtonsoft.Json.JsonReader,Newtonsoft.Json.Serialization.JsonDictionaryContract,System.Boolean&)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObject(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+---
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateValueInternal(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::Deserialize(Newtonsoft.Json.JsonReader,System.Type,System.Boolean)
+C:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+V:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonSerializer::Deserialize(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject(System.String,System.Type,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String)
+C:SerialDetector.Experiments.Deserializers::NewtonsoftJson()
+
+#30 Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]) (0 attack triggers) 
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObject(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+---
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateValueInternal(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::Deserialize(Newtonsoft.Json.JsonReader,System.Type,System.Boolean)
+C:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+V:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonSerializer::Deserialize(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject(System.String,System.Type,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String)
+C:SerialDetector.Experiments.Deserializers::NewtonsoftJson()
+
+#31 Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]) (11 attack triggers) HIGH PRIORITY!
+C:Newtonsoft.Json.Serialization.JsonDictionaryContract::CreateWrapper(System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObject(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+---
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateValueInternal(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::Deserialize(Newtonsoft.Json.JsonReader,System.Type,System.Boolean)
+C:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+V:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonSerializer::Deserialize(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject(System.String,System.Type,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String)
+C:SerialDetector.Experiments.Deserializers::NewtonsoftJson()
+
+#35 Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]) (85 attack triggers) HIGH PRIORITY!
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateISerializable(Newtonsoft.Json.JsonReader,Newtonsoft.Json.Serialization.JsonISerializableContract,Newtonsoft.Json.Serialization.JsonProperty,System.String)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObject(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateValueInternal(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+---
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::Deserialize(Newtonsoft.Json.JsonReader,System.Type,System.Boolean)
+C:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+V:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonSerializer::Deserialize(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject(System.String,System.Type,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String)
+C:SerialDetector.Experiments.Deserializers::NewtonsoftJson()
+
+#36 Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]) (22 attack triggers) HIGH PRIORITY!
+C:Newtonsoft.Json.Serialization.JsonArrayContract::CreateWrapper(System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateList(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object,System.String)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateValueInternal(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+---
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::Deserialize(Newtonsoft.Json.JsonReader,System.Type,System.Boolean)
+C:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+V:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonSerializer::Deserialize(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject(System.String,System.Type,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String)
+C:SerialDetector.Experiments.Deserializers::NewtonsoftJson()
+
+#42 Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]) (24 attack triggers) HIGH PRIORITY!
+C:Newtonsoft.Json.Serialization.JsonArrayContract::CreateWrapper(System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateList(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object,System.String)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateValueInternal(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::Deserialize(Newtonsoft.Json.JsonReader,System.Type,System.Boolean)
+C:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+V:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+---
+C:Newtonsoft.Json.JsonSerializer::Deserialize(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject(System.String,System.Type,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String)
+C:SerialDetector.Experiments.Deserializers::NewtonsoftJson()
+
+#58 Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]) (89 attack triggers) HIGH PRIORITY!
+C:Newtonsoft.Json.Serialization.JsonArrayContract::CreateWrapper(System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateList(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object,System.String)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateValueInternal(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::Deserialize(Newtonsoft.Json.JsonReader,System.Type,System.Boolean)
+C:Newtonsoft.Json.Serialization.JsonSerializerProxy::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+V:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonSerializer::Deserialize(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject(System.String,System.Type,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String)
+C:SerialDetector.Experiments.Deserializers::NewtonsoftJson()
+---
+
+#56 Newtonsoft.Json.Serialization.ObjectConstructor`1::Invoke(System.Object[]) (13 attack triggers) 
+C:Newtonsoft.Json.Serialization.JsonDictionaryContract::CreateWrapper(System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObjectUsingCreatorWithParameters(Newtonsoft.Json.JsonReader,Newtonsoft.Json.Serialization.JsonObjectContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.ObjectConstructor`1<System.Object>,System.String)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateNewObject(Newtonsoft.Json.JsonReader,Newtonsoft.Json.Serialization.JsonObjectContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonProperty,System.String,System.Boolean&)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateObject(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::CreateValueInternal(Newtonsoft.Json.JsonReader,System.Type,Newtonsoft.Json.Serialization.JsonContract,Newtonsoft.Json.Serialization.JsonProperty,Newtonsoft.Json.Serialization.JsonContainerContract,Newtonsoft.Json.Serialization.JsonProperty,System.Object)
+C:Newtonsoft.Json.Serialization.JsonSerializerInternalReader::Deserialize(Newtonsoft.Json.JsonReader,System.Type,System.Boolean)
+C:Newtonsoft.Json.Serialization.JsonSerializerProxy::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+V:Newtonsoft.Json.JsonSerializer::DeserializeInternal(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonSerializer::Deserialize(Newtonsoft.Json.JsonReader,System.Type)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject(System.String,System.Type,Newtonsoft.Json.JsonSerializerSettings)
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String,Newtonsoft.Json.JsonSerializerSettings)
+---
+C:Newtonsoft.Json.JsonConvert::DeserializeObject`1(System.String)
+C:SerialDetector.Experiments.Deserializers::NewtonsoftJson()
+

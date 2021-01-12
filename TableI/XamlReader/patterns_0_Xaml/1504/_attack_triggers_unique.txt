@@ -1,0 +1,7 @@
+System.Object::ToString()
+System.ICustomFormatter::Format(System.String,System.Object,System.IFormatProvider)
+System.Collections.Generic.IEqualityComparer`1::Equals(!0,!0)
+System.Collections.Generic.IEqualityComparer`1::GetHashCode(!0)
+System.Xaml.XamlType::LookupUnderlyingType()
+System.Xaml.XamlType::LookupIsUnknown()
+System.CtorDelegate::Invoke(System.Object)

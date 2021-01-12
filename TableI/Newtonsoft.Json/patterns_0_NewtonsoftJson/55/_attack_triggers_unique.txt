@@ -1,0 +1,7 @@
+System.Collections.Hashtable::get_SyncRoot()
+System.Collections.Hashtable::set_Item(System.Object,System.Object)
+System.Collections.Hashtable::KeyEquals(System.Object,System.Object)
+System.Runtime.Remoting.Messaging.MessageDictionary::SetSpecialKey(System.Int32,System.Object)
+System.Collections.IDictionary::set_Item(System.Object,System.Object)
+System.Collections.Hashtable::GetEnumerator()
+System.Collections.IDictionary::GetEnumerator()

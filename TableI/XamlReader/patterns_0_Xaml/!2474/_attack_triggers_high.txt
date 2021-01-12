@@ -1,0 +1,1 @@
+System.Action`1::Invoke(!0)

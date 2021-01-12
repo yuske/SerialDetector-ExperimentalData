@@ -1,0 +1,22 @@
+Time: 6007 ms
+Analyzed Different Methods: 8034
+    Concrete: 7253
+    Virtual (emulated): 781
+(Re)Analyzed Methods (Created Summaries): 9397
+    Concrete: 8441
+    Virtual (emulated): 956
+(Re)Analyzed Instructions: 300192
+Applied Summaries: 51080 times
+Method Calls: 57187
+    Emulated Method Calls: 2606
+    Ignored Target Calls: 4
+    Ignored Not Implemented: 5083
+    Ignored Recursion Calls: 663
+    Ignored Virtual Methods by Limit: 357 (6 different methods)
+Created Types: 9442 (0)
+Virtual Memory: 7754 Mb (8131198976)
+Working Set: 3058 Mb (3207294976)
+
+
+DUMP2
+& 6.0 & 7,754 & 44 & 2 & 7,253 & 8,441 & 54,581 & 51,080 & 300,192 \\

@@ -1,0 +1,2 @@
+System.Runtime.Serialization.DeserializationEventHandler::.ctor(System.Object,System.IntPtr)
+System.RuntimeMethodHandle::SerializationInvoke(System.IRuntimeMethodInfo,System.Object,System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext&)

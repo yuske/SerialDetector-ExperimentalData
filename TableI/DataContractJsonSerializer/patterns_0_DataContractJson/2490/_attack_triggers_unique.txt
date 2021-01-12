@@ -1,0 +1,5 @@
+System.Threading.Monitor::ReliableEnter(System.Object,System.Boolean&)
+System.Configuration.Provider.ProviderBase::Initialize(System.String,System.Collections.Specialized.NameValueCollection)
+System.Configuration.Internal.IInternalConfigurationBuilderHost::ProcessConfigurationSection(System.Configuration.ConfigurationSection,System.Configuration.ConfigurationBuilder)
+System.Configuration.Internal.IInternalConfigurationBuilderHost::ProcessRawXml(System.Xml.XmlNode,System.Configuration.ConfigurationBuilder)
+System.CtorDelegate::Invoke(System.Object)

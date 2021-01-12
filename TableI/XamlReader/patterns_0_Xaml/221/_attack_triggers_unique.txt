@@ -1,0 +1,2 @@
+System.Configuration.Internal.IConfigurationManagerInternal::get_SetConfigurationSystemInProgress()
+System.CtorDelegate::Invoke(System.Object)

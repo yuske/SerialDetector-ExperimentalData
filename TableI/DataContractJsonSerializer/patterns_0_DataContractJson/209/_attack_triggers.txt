@@ -1,0 +1,2 @@
+0: System.Threading.WinRTSynchronizationContextFactoryBase::Create(System.Object)
+1: System.CtorDelegate::Invoke(System.Object)

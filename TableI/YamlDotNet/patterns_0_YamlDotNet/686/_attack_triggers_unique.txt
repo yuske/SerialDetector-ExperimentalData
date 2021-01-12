@@ -1,0 +1,5 @@
+System.Object::Equals(System.Object)
+System.Object::GetType()
+System.Security.PermissionSet::FromXml(System.Security.SecurityElement,System.Boolean,System.Boolean)
+System.Security.ISecurityEncodable::FromXml(System.Security.SecurityElement)
+System.CtorDelegate::Invoke(System.Object)

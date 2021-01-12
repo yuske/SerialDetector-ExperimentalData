@@ -1,0 +1,4 @@
+System.Runtime.Remoting.Messaging.MessageDictionary::SetSpecialKey(System.Int32,System.Object)
+System.Collections.Hashtable::KeyEquals(System.Object,System.Object)
+System.Collections.IDictionary::set_Item(System.Object,System.Object)
+System.CtorDelegate::Invoke(System.Object)

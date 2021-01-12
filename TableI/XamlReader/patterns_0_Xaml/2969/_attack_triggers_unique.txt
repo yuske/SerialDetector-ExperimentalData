@@ -1,0 +1,2 @@
+System.WeakReference::Create(System.Object,System.Boolean)
+System.CtorDelegate::Invoke(System.Object)

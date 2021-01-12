@@ -1,0 +1,7 @@
+System.UriParser::GetComponents(System.Uri,System.UriComponents,System.UriFormat)
+System.Object::Equals(System.Object)
+System.Object::ToString()
+System.Configuration.ConfigurationElement::AssociateContext(System.Configuration.BaseConfigurationRecord)
+System.Configuration.ConfigurationElement::SetReadOnly()
+System.Configuration.ConfigurationElement::Init()
+System.CtorDelegate::Invoke(System.Object)

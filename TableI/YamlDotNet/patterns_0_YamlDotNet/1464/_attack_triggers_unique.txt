@@ -1,0 +1,2 @@
+YamlDotNet.Serialization.IYamlConvertible::Read(YamlDotNet.Core.IParser,System.Type,YamlDotNet.Serialization.ObjectDeserializer)
+System.CtorDelegate::Invoke(System.Object)

@@ -1,0 +1,5 @@
+0: System.Security.IPermission::Union(System.Security.IPermission)
+1: System.Security.IPermission::Union(System.Security.IPermission)
+2: System.Security.IPermission::Intersect(System.Security.IPermission)
+3: System.Security.IPermission::Union(System.Security.IPermission)
+4: System.CtorDelegate::Invoke(System.Object)

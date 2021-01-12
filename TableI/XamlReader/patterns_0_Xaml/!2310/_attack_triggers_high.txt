@@ -1,0 +1,3 @@
+System.EventHandler`1::Invoke(System.Object,!0)
+System.Xaml.Schema.SafeReflectionInvoker/InvokeMethodDelegate::Invoke(System.Reflection.MethodInfo,System.Object,System.Object[])
+System.RuntimeMethodHandle::InvokeMethod(System.Object,System.Object[],System.Signature,System.Boolean)

@@ -1,0 +1,2 @@
+System.Configuration.Provider.ProviderBase::Initialize(System.String,System.Collections.Specialized.NameValueCollection)
+System.CtorDelegate::Invoke(System.Object)

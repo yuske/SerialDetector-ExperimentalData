@@ -1,0 +1,3 @@
+0: System.Resources.WindowsRuntimeResourceManagerBase::GetString(System.String,System.String,System.String)
+1: System.Resources.WindowsRuntimeResourceManagerBase::Initialize(System.String,System.String,System.Resources.PRIExceptionInfo&)
+2: System.CtorDelegate::Invoke(System.Object)

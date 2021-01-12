@@ -1,0 +1,5 @@
+0: System.RuntimeMethodHandle::InvokeMethod(System.Object,System.Object[],System.Signature,System.Boolean)
+1: System.RuntimeMethodHandle::InvokeMethod(System.Object,System.Object[],System.Signature,System.Boolean)
+2: System.Object::GetType()
+3: System.Object::GetType()
+4: System.CtorDelegate::Invoke(System.Object)

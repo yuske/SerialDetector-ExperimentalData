@@ -1,0 +1,3 @@
+0: System.Collections.Hashtable::GetEnumerator()
+1: System.Collections.Hashtable::GetEnumerator()
+2: System.Collections.IDictionary::GetEnumerator()

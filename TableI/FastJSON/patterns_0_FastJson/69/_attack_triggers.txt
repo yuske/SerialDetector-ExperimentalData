@@ -1,0 +1,2 @@
+0: System.Collections.Hashtable::KeyEquals(System.Object,System.Object)
+1: System.Collections.IDictionary::Add(System.Object,System.Object)

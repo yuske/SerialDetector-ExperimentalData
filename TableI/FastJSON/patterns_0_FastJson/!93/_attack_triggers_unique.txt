@@ -1,0 +1,4 @@
+fastJSON.Reflection/GenericSetter::Invoke(System.Object,System.Object)
+fastJSON.Reflection/GenericGetter::Invoke(System.Object)
+System.Collections.Generic.IEqualityComparer`1::GetHashCode(!0)
+System.Collections.Generic.IEqualityComparer`1::Equals(!0,!0)

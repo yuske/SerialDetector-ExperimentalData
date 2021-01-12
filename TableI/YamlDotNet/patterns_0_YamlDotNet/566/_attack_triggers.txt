@@ -1,0 +1,7 @@
+0: System.Object::GetType()
+1: System.RuntimeType::AllocateValueType(System.RuntimeType,System.Object,System.Boolean)
+2: System.RuntimeType::AllocateValueType(System.RuntimeType,System.Object,System.Boolean)
+3: System.Object::GetType()
+4: System.Runtime.Remoting.RemotingServices::GetRealProxy(System.Object)
+5: System.Object::GetType()
+6: System.CtorDelegate::Invoke(System.Object)

@@ -1,0 +1,4 @@
+System.Object::GetType()
+System.Security.Policy.CodeGroup::ParseXml(System.Security.SecurityElement,System.Security.Policy.PolicyLevel)
+System.Threading.Monitor::ReliableEnter(System.Object,System.Boolean&)
+System.CtorDelegate::Invoke(System.Object)

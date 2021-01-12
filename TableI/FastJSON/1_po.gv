@@ -1,0 +1,47 @@
+digraph G {
+node [fontsize = 16];
+0 [label="Reflection/CreateObject::Invoke", shape="box", style="filled", fillcolor="brown1", color="brown1"];
+subgraph cluster_0 {
+label="fastJSON";
+color=darkslateblue;
+fontcolor=darkslateblue;
+penwidth=2;
+labeljust=l;
+1 [label="JSON::FillObject", shape="box", style="filled, rounded", fillcolor="darkgreen", color="darkgreen", fontcolor="white"];
+2 [label="JSON::ToObject", shape="box", style="filled", fillcolor="green2", color="green2"];
+3 [label="JSON::ToObject", shape="box", style="filled, rounded", fillcolor="darkgreen", color="darkgreen", fontcolor="white"];
+4 [label="JSON::ToObject", shape="box", style="filled, rounded", fillcolor="darkgreen", color="darkgreen", fontcolor="white"];
+5 [label="JSON::ToObject", shape="box", style="filled, rounded", fillcolor="darkgreen", color="darkgreen", fontcolor="white"];
+6 [label="JSON::ToObject`1", shape="box", style="filled, rounded", fillcolor="darkgreen", color="darkgreen", fontcolor="white"];
+7 [label="JSON::ToObject`1", shape="box", style="filled, rounded", fillcolor="darkgreen", color="darkgreen", fontcolor="white"];
+8 [label="JSON::DeepCopy`1", shape="box", style="filled, rounded", fillcolor="darkgreen", color="darkgreen", fontcolor="white"];
+9 [label="JSON::DeepCopy", shape="box", style="filled, rounded", fillcolor="darkgreen", color="darkgreen", fontcolor="white"];
+}
+subgraph cluster_1 {
+label="SerialDetector.Experiments";
+color=orange3;
+fontcolor=orange3;
+penwidth=2;
+labeljust=l;
+10 [label="Deserializers::FastJson", shape="box", style="filled, rounded", fillcolor="darkgreen", color="darkgreen", fontcolor="white"];
+}
+subgraph cluster_2 {
+label="SerialDetector.KnowledgeBase.EntryPoints";
+color=violetred4;
+fontcolor=violetred4;
+penwidth=2;
+labeljust=l;
+11 [label="Deserializers::FastJson", shape="box", style="filled, rounded", fillcolor="darkgreen", color="darkgreen", fontcolor="white"];
+}
+1 -> 0 [color="gray50"];
+2 -> 0 [color="gray50"];
+3 -> 0 [color="gray50"];
+4 -> 0 [color="gray50"];
+5 -> 0 [color="gray50"];
+10 -> 2 [color="gray50"];
+11 -> 2 [color="gray50"];
+6 -> 0 [color="gray50"];
+7 -> 0 [color="gray50"];
+8 -> 0 [color="gray50"];
+9 -> 0 [color="gray50"];
+}

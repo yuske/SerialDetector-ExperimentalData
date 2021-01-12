@@ -1,0 +1,4 @@
+System.Resources.ResourceSet::GetString(System.String,System.Boolean)
+System.Resources.ResourceSet::Dispose(System.Boolean)
+System.Collections.Generic.EqualityComparer`1::Equals(!0,!0)
+System.CtorDelegate::Invoke(System.Object)

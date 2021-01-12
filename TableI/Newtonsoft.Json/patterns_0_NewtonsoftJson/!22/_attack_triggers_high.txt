@@ -1,0 +1,2 @@
+Newtonsoft.Json.Serialization.SerializationCallback::Invoke(System.Object,System.Runtime.Serialization.StreamingContext)
+Newtonsoft.Json.Serialization.ExtensionDataSetter::Invoke(System.Object,System.String,System.Object)

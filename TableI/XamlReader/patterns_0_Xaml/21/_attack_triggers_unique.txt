@@ -1,0 +1,2 @@
+System.Resources.WindowsRuntimeResourceManagerBase::get_GlobalResourceContextBestFitCultureInfo()
+System.CtorDelegate::Invoke(System.Object)

@@ -1,0 +1,5 @@
+System.Xaml.XamlType::LookupCollectionKind()
+System.Xaml.XamlType::LookupSetMarkupExtensionHandler()
+System.Xaml.XamlType::LookupUnderlyingType()
+System.Xaml.XamlType::LookupIsUnknown()
+System.CtorDelegate::Invoke(System.Object)

@@ -1,0 +1,3 @@
+System.Security.IPermission::Union(System.Security.IPermission)
+System.Security.IPermission::Intersect(System.Security.IPermission)
+System.CtorDelegate::Invoke(System.Object)

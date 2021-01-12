@@ -1,0 +1,7 @@
+0: System.Collections.Generic.IEqualityComparer`1::Equals(!0,!0)
+1: System.Collections.Generic.IEqualityComparer`1::GetHashCode(!0)
+2: System.Xaml.XamlType::LookupUnderlyingType()
+3: System.Xaml.XamlType::LookupIsUnknown()
+4: System.Xaml.XamlType::LookupUnderlyingType()
+5: System.Xaml.XamlType::LookupIsUnknown()
+6: System.CtorDelegate::Invoke(System.Object)

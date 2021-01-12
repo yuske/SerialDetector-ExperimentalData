@@ -1,0 +1,4 @@
+System.Configuration.Internal.IInternalConfigurationBuilderHost::ProcessConfigurationSection(System.Configuration.ConfigurationSection,System.Configuration.ConfigurationBuilder)
+System.Configuration.Internal.IInternalConfigurationBuilderHost::ProcessRawXml(System.Xml.XmlNode,System.Configuration.ConfigurationBuilder)
+System.Configuration.Provider.ProviderBase::Initialize(System.String,System.Collections.Specialized.NameValueCollection)
+System.CtorDelegate::Invoke(System.Object)

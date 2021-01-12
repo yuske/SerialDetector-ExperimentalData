@@ -1,0 +1,3 @@
+0: MBrace.FsPickler.IPicklerResolver::Resolve`1()
+1: MBrace.FsPickler.IPicklerResolver::Resolve`1()
+2: System.CtorDelegate::Invoke(System.Object)

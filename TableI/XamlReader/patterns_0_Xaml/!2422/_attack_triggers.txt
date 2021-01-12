@@ -1,0 +1,4 @@
+0: System.Action`1::Invoke(!0)
+1: System.Action`1::Invoke(!0)
+2: System.Action`1::Invoke(!0)
+3: System.CtorDelegate::Invoke(System.Object)

@@ -1,0 +1,6 @@
+0: System.Object::GetType()
+1: System.Object::GetType()
+2: System.Configuration.ConfigurationElement::AssociateContext(System.Configuration.BaseConfigurationRecord)
+3: System.Configuration.ConfigurationElement::SetReadOnly()
+4: System.Configuration.ConfigurationElement::Init()
+5: System.CtorDelegate::Invoke(System.Object)

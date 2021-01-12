@@ -1,0 +1,7 @@
+0: System.Xaml.XamlMember::LookupTypeConverter()
+1: System.Xaml.XamlMember::LookupUnderlyingMember()
+2: System.Xaml.XamlMember::LookupCustomAttributeProvider()
+3: System.Xaml.XamlMember::LookupDeferringLoader()
+4: System.Xaml.XamlMember::LookupType()
+5: System.Xaml.XamlMember::LookupIsUnknown()
+6: System.CtorDelegate::Invoke(System.Object)

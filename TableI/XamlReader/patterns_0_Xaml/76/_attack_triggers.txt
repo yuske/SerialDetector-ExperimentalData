@@ -1,0 +1,2 @@
+0: System.Delegate::BindToMethodInfo(System.Object,System.IRuntimeMethodInfo,System.RuntimeType,System.DelegateBindingFlags)
+1: System.CtorDelegate::Invoke(System.Object)

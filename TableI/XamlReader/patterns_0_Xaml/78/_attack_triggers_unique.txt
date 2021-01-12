@@ -1,0 +1,7 @@
+System.Runtime.Remoting.Services.ITrackingHandler::MarshaledObject(System.Object,System.Runtime.Remoting.ObjRef)
+System.MarshalByRefObject::CreateObjRef(System.Type)
+System.Runtime.Remoting.RemotingServices::GetRealProxy(System.Object)
+System.Runtime.Remoting.RemotingServices::IsTransparentProxy(System.Object)
+System.Threading.Interlocked::CompareExchange(System.Object&,System.Object,System.Object)
+System.Object::GetType()
+System.CtorDelegate::Invoke(System.Object)
